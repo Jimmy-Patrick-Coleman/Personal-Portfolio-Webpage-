@@ -1,0 +1,66 @@
+#navbar a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: dodgerblue;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 80px;
+    overflow-y: auto;
+  }
+body {
+    background-color: dodgerblue;
+}
+  #welcome-section {
+
+      background-image: url(images/pexels-photo-577585.webp);
+      text-align: center;
+      height: 100vh;
+      color: white;
+  }
+  #projects{
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  #contacts {
+      border: 1px solid black;
+      height: 50px;
+      background-color: dodgerblue;
+      color: orange;
+  }
+  .Flex-container {
+        text-align: center;
+        width: 100%;
+  }
+  .column {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border: 1px solid white;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: -1000;
+        width: 200px;
+        height: 80px;
+        overflow-y: auto;
+      }
+  }
