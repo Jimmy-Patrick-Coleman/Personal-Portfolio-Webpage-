@@ -7,6 +7,6 @@ It had to be deleted because reuploading was faster than dealing with changing t
 This is my Personal Portfolio Webpage
 
 view at 
-https://jimmypcoleman.github.io/Personal-Portfolio-Webpage-/. 
+
 
 I hope yoy enjoy!
